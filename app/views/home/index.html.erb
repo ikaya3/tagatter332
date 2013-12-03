@@ -19,5 +19,5 @@
 <% end %>
 
 <table>
-<%= render(Message.all) %>
+<%= render(Message.order("created_at DESC")) %>
 </table>
