@@ -9,3 +9,7 @@
 <p><%= link_to "ユーザー登録", new_user_registration_path %></p>
 <p><%= link_to "パスワード再発行", new_user_password_path %></p>
 <% end %>
+
+<p>
+<%= render(Message.all) %>
+</p>
